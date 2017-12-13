@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid Layout - Parte 2</title>
+  <style>
+    *{
+      margin: 0;
+      font-family: arial;
+    }
+    .color-1{
+      background-color: #1C35CF;
+    }
+    .color-2{
+      background-color: #8A33FA;
+    }
+    .color-3{
+      background-color: #BD43C0;
+    }
+    .color-4{
+      background-color: #DD375B;
+    }
+    .color-5{
+      background-color: #1A9541;
+    }
+    .color-6{
+      background-color: #D44024;
+    }
+    .grid{
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 200px 100px 150px;
+    }
+    .grid-item{
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="grid-item color-1">1</div>
+    <div class="grid-item color-2">2</div>
+    <div class="grid-item color-3">3</div>
+    <div class="grid-item color-4">4</div>
+    <div class="grid-item color-5">5</div>
+    <div class="grid-item color-6">6</div>
+  </div>
+</body>
+</html>
