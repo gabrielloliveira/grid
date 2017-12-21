@@ -1,10 +1,10 @@
-<!-- Este é o código da parte 2 da série de Grid Layout do blog Oh My Code. -->
+<!-- Este é o código da parte 3 da série de Grid Layout do blog Oh My Code. -->
 <!-- Acesse: ohmycode.com.br -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Grid Layout - Parte 2</title>
+  <title>Grid Layout - Parte 3</title>
   <style>
     *{
       margin: 0;
@@ -31,8 +31,17 @@
     .grid{
       display: grid;
       grid-gap: 10px;
-      grid-template-columns: 2fr 1fr;
-      grid-template-rows: 200px 100px 150px;
+      /*para deixar uma coluna de largura fixa*/
+      /*grid-template-columns: 100px repeat(3, 2fr);*/
+
+      /*para intercalar entre as larguras das colunas*/
+      /*grid-template-columns: 100px repeat(3, 2fr 1fr);*/
+
+      /*também funciona em grid-template-rows*/
+      /*grid-template-rows: repeat(5, 200px);*/
+
+      grid-template-columns: repeat(4, 2fr); 
+      grid-template-rows: 100px 250px;
     }
     .grid-item{
       color: white;
