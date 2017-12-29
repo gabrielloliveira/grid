@@ -1,0 +1,69 @@
+<!-- Este é o código da parte 5 da série de Grid Layout do blog Oh My Code. -->
+<!-- Acesse: ohmycode.com.br -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid Layout - Parte 5</title>
+  <style>
+    *{
+      margin: 0;
+      font-family: arial;
+    }
+    .color-1{
+      background-color: #1C35CF;
+    }
+    .color-2{
+      background-color: #8A33FA;
+    }
+    .color-3{
+      background-color: #BD43C0;
+    }
+    .color-4{
+      background-color: #DD375B;
+    }
+    .color-5{
+      background-color: #1A9541;
+    }
+    .color-6{
+      background-color: #D44024;
+    }
+    .color-7{
+      background-color: #E78A30;
+    }
+    .color-8{
+      background-color: #353030;
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(4, 2fr);
+      grid-template-rows: 100px 100px;
+      grid-gap: 10px;
+      /*grid-auto-flow: column;*/
+    }
+    .grid-item{
+      order: 19;
+      color: white;
+      padding: 20px;
+    }
+    .element-5{
+      order: 1;
+    }
+    .element-8{
+      order: 10;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="grid-item color-1 element-1">1</div>
+    <div class="grid-item color-2 element-2">2</div>
+    <div class="grid-item color-3 element-3">3</div>
+    <div class="grid-item color-4 element-4">4</div>
+    <div class="grid-item color-5 element-5">5</div>
+    <div class="grid-item color-6 element-6">6</div>
+    <div class="grid-item color-7 element-7">7</div>
+    <div class="grid-item color-8 element-8">8</div>
+  </div>
+</body>
+</html>
