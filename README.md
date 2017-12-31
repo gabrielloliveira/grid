@@ -9,3 +9,5 @@ Códigos dos tutoriais de grid layout do ohmycode
 - [Parte 2 - A unidade fr.](https://ohmycode.com.br/post/aprenda-grid-layout-parte-2/)
 - [Parte 3 - Usando o repeat.](https://ohmycode.com.br/post/aprenda-grid-layout-parte-3/)
 - [Parte 4 - minmax()](https://ohmycode.com.br/post/aprenda-grid-layout-parte-4/)
+- [Parte 5 - order](https://ohmycode.com.br/post/aprenda-grid-layout-parte-5/)
+- [Parte 6 - auto-fill e auto-fit](https://ohmycode.com.br/post/aprenda-grid-layout-parte-6/)
