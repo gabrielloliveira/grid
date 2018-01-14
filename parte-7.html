@@ -1,0 +1,91 @@
+<!-- Este é o código da parte 7 da série de Grid Layout do blog Oh My Code. -->
+<!-- Acesse: ohmycode.com.br -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid Layout - Parte 7</title>
+  <style>
+    *{
+      margin: 0;
+      font-family: arial;
+    }
+    .color-1{
+      background-color: #1C35CF;
+    }
+    .color-2{
+      background-color: #8A33FA;
+      grid-column-end: span 2;
+      grid-row-end: span 2;
+    }
+    .color-3{
+      background-color: #BD43C0;
+      grid-column-end: span 3;
+      grid-row-end: span 3;
+    }
+    .color-4{
+      background-color: #DD375B;
+      grid-row-end: span 4;
+    }
+    .color-5{
+      background-color: #1A9541;
+    }
+    .color-6{
+      background-color: #D44024;
+    }
+    .color-7{
+      background-color: #E78A30;
+    }
+    .color-8{
+      background-color: #353030;
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+      grid-gap: 5px;
+      grid-auto-rows: minmax(20px, auto);
+      grid-auto-flow: dense;
+    }
+    .grid-item{
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="grid-item color-1">01</div>
+    <div class="grid-item color-2">02</div>
+    <div class="grid-item color-3">03</div>
+    <div class="grid-item color-4">04</div>
+    <div class="grid-item color-5">05</div>
+    <div class="grid-item color-6">06</div>
+    <div class="grid-item color-7">07</div>
+    <div class="grid-item color-8">08</div>
+    <div class="grid-item color-1">09</div>
+    <div class="grid-item color-2">10</div>
+    <div class="grid-item color-3">11</div>
+    <div class="grid-item color-4">12</div>
+    <div class="grid-item color-5">13</div>
+    <div class="grid-item color-6">14</div>
+    <div class="grid-item color-7">15</div>
+    <div class="grid-item color-8">16</div>
+    <div class="grid-item color-1">17</div>
+    <div class="grid-item color-2">18</div>
+    <div class="grid-item color-3">19</div>
+    <div class="grid-item color-4">20</div>
+    <div class="grid-item color-5">21</div>
+    <div class="grid-item color-6">22</div>
+    <div class="grid-item color-7">23</div>
+    <div class="grid-item color-8">24</div>
+    <div class="grid-item color-1">25</div>
+    <div class="grid-item color-2">26</div>
+    <div class="grid-item color-3">27</div>
+    <div class="grid-item color-4">28</div>
+    <div class="grid-item color-5">29</div>
+    <div class="grid-item color-6">30</div>
+    <div class="grid-item color-7">31</div>
+    <div class="grid-item color-8">32</div>
+  </div>
+</body>
+</html>
