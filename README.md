@@ -11,3 +11,4 @@ Códigos dos tutoriais de grid layout do ohmycode
 - [Parte 4 - minmax()](https://ohmycode.com.br/post/aprenda-grid-layout-parte-4/)
 - [Parte 5 - order](https://ohmycode.com.br/post/aprenda-grid-layout-parte-5/)
 - [Parte 6 - auto-fill e auto-fit](https://ohmycode.com.br/post/aprenda-grid-layout-parte-6/)
+- [Aprenda grid layout - Parte 7 - Rearranjo e posicionamento](https://ohmycode.com.br/post/aprenda-grid-layout-parte-7/)
